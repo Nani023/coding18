@@ -1,0 +1,116 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+  padding: 30px;
+}
+.appointment-container {
+  height: 100%;
+  width: 60%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 50px;
+}
+.appointment-heading {
+  font-size: 34px;
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.title {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #b5b7c4;
+}
+.text-input {
+  height: 35px;
+  width: 350px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #b5b7c4;
+  border: 1px solid #b5b7c4;
+  box-shadow: 2px 4px 6px;
+}
+.date {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #b5b7c4;
+}
+.date-input {
+  height: 35px;
+  width: 350px;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 14px;
+  color: #171f46;
+  border: 1px solid #b5b7c4;
+  box-shadow: 2px 4px 6px;
+}
+.add-button {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #8b5cf6;
+  padding: 12px;
+  border-radius: 5px;
+  border-width: 0px;
+  width: 70px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.appointments-image {
+  margin-left: 45px;
+}
+.line {
+  border: 2px solid #b5b7c4;
+  margin-top: 15px;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 600;
+  color: #171f46;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.starred-button {
+  width: 100px;
+  height: 35px;
+  border-radius: 14px;
+  background-color: transparent;
+  margin-top: 18px;
+  font-size: 14px;
+  color: #9796f0;
+  border-color: #9796f0;
+}
+.all-appointments-container {
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.filter-filled {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
